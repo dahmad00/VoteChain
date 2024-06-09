@@ -22,9 +22,10 @@ const Home = () => {
 
   return (
     <DisplayCampaigns 
-      title="All Campaigns"
+      title="All Polls"
       isLoading={isLoading}
       campaigns={campaigns}
+      isAdmin={true}
     />
   )
 }
